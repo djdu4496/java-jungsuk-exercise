@@ -1,3 +1,4 @@
+// [5-3] 배열 arr에 담긴 모든 값을 더하는 프로그램을 완성하시오.
 package javaJungsukPractice;
 
 public class Ch5_3 {
