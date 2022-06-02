@@ -1,5 +1,4 @@
 // [5-4] 2차원 배열 arr에 담긴 모든 값의 총합과 평균을 구하는 프로그램을 완성하시오.
-package javaJungsukPractice;
 
 class Exercise5_4
 {
@@ -19,7 +18,7 @@ class Exercise5_4
 				total += arr[i][j];
 			}
 		}
-		average = total / (arr.length * 5);≈j
+		average = total / (arr.length * 5);
 		System.out.println("total="+total);
 		System.out.println("average="+average); 
 	} // end of main
