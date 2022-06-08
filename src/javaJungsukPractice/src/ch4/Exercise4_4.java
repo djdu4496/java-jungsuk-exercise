@@ -8,11 +8,10 @@ package ch4;
 public class Exercise4_4 {
 
 	public static void main(String[] args) {
-		int sum = 0;
-		int num = 1;
-		while((sum += num++) < 100) {
-				
-		}
+		int[] iArr = new int[] {50, 60, 70, 80, 90};
+		char[] chArr = new char[] {'a', 'b', 'c', 'd'};
+		System.out.println(iArr);
+		System.out.println(chArr);
 	}
 
 }
