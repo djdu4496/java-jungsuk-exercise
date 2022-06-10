@@ -19,6 +19,21 @@ public class Exercise5_4 {
 		/*
 		 *	(1) 알맞은 코드를 넣어 완성하시오. 
 		 */
+		for( int[] tmp : arr) {
+			for( int tmp2 : tmp) {
+				total += tmp2;
+			}
+		}
+		
+		int length = 0; 
+		
+		for( int[] tmp : arr) {
+			for( int tmp2 : tmp) {
+				length = arr.length * tmp.length;
+			}
+		}
+		
+		average = total / (float) length;
 		System.out.println("total="+total);
 		System.out.println("average="+average);
 	}
@@ -28,4 +43,6 @@ public class Exercise5_4 {
  * 실행결과 
  * total=325
  * average=16.25
+ * 정답
+ *  22 ~ 34번째 라인 
  */

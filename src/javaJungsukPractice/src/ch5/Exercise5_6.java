@@ -19,8 +19,11 @@ public class Exercise5_6 {
 		
 		for(int i = 0; i < coinUnit.length; i++) {
 			/*
-			 * 알맞은 코드를 넣어 완성하시오.
+			 * (1) 알맞은 코드를 넣어 완성하시오.
 			 */
+			int q = money / coinUnit[i];
+			System.out.printf("%d원: %d%n", coinUnit[i], q);
+			money = money % coinUnit[i];
 		}
 	} // end of main
 } // end of class
@@ -32,4 +35,6 @@ public class Exercise5_6 {
  * 100원: 1 
  * 50원: 1 
  * 10원: 3
+ * 정답:
+ * 24 ~ 26 라인 코드 
  */
