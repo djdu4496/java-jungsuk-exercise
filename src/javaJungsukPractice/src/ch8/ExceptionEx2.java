@@ -1,4 +1,4 @@
-package ch6;
+package ch8;
 
 class ExceptionEx2 {
 	public static void main(String args[]) {
