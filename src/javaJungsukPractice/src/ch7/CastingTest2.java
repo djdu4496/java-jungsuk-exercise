@@ -2,7 +2,7 @@ package ch7;
 
 class CastingTest2 {
 	public static void main(String args[]) {
-		Car car = new Car();
+		Car car = new FireEngine();
 		Car car2 = null;
 		FireEngine fe = null;
   
